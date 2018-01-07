@@ -5,16 +5,17 @@
     width: 100%;
 }
 
-
-
-.masthead {
-      margin-bottom: -100px;
-}
-
 #wineSection {
 	background-color: #23272d;
 	color: #fff;
+  padding: 25px 0px;
+}
 
+.homeLogo {
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 /*
