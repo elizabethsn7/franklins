@@ -1,1 +1,1 @@
-$(".carousel").carousel({interval:3e3});
+document.querySelector("html").onclick=function(){alert("Ouch! Stop poking me!")};
