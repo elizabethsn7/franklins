@@ -4,6 +4,14 @@
     left: 0;
     width: 100%;
 }
+.about {
+  text-align: left;
+  padding-left: 10px
+}
+
+.display-3 {
+  margin-top: 20px;
+}
 
 #wineSection {
 	background-color: #23272d;
@@ -11,13 +19,17 @@
   padding: 25px 0px;
 }
 
-.homeLogo {
-  background-size: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+.col-md-6 {
+  padding: 0;
 }
-
+  #map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 /*
 
 * Based on Cover by https://twitter.com/mdo"  @mdo
@@ -45,8 +57,7 @@ a:hover {
 }
 
 .fixed-top {
-  height: 75px;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 /*
  * Base structure
