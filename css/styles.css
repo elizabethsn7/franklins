@@ -14,10 +14,17 @@
 }
 
 #wineSection {
-	background-color: #23272d;
 	color: #fff;
   padding: 25px 0px;
 }
+#logo {
+  margin: 0 auto;
+  padding-top: 25%;
+}
+#beerQuote {
+  background: url(../img/beerCloseup.png) no-repeat center center fixed;
+  height: 100%;
+  }
 
 .col-md-6 {
   padding: 0;
