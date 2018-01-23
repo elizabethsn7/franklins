@@ -68,8 +68,6 @@ padding-top: 100px;
   }
 /*
 
-* Based on Cover by https://twitter.com/mdo"  @mdo
-* Globals */
 /* Links */
 a,
 a:focus,
@@ -96,14 +94,12 @@ a:hover {
 
 html,
 body {
-
 /*css for full size background image*/
   background: url(../img/heroBurger.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   height: 100%;
   color: #000;
   text-align: center;
@@ -136,16 +132,11 @@ body {
   display: table-cell;
   vertical-align: top;
 }
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
 
 /* Padding for spacing */
 .inner {
   /*padding: 30px;*/
 }
-
 
 /*
  * Header
