@@ -4,30 +4,59 @@
     left: 0;
     width: 100%;
 }
+
+
+.aboutBackground {
+  background: url(../img/aboutBeer.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
 .about {
   text-align: left;
-  padding-left: 10px
+  color: #000;
+  margin: 0 20px;
+}
+.aboutFont {
+  font-family: garamond-premier-pro-display, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
 }
 
-.display-3 {
-  margin-top: 20px;
+.textBackgroundBlock {
+  background-color: #FFF;
+  padding: 30px;
+  opacity: 0.8;
 }
-
 #wineSection {
-	color: #fff;
-  padding: 25px 0px;
+	color: #2E0014;
+  background-color: #FFF;
+  margin-top: 500px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
-#logo {
-  margin: 0 auto;
-  padding-top: 25%;
-}
-#beerQuote {
-  background: url(../img/beerCloseup.png) no-repeat center center fixed;
-  height: 100%;
-  }
 
+#logo {
+float: left;
+padding-top: 100px;
+}
+.wineOverlay{
+  font-family: garamond-premier-pro-display, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+}
 .col-md-6 {
   padding: 0;
+}
+#services {
+  background-color: #FFF;
+}
+#contact{
+  background-color: #FFF;
 }
   #map {
     height: 100%;
@@ -40,12 +69,7 @@
 /*
 
 * Based on Cover by https://twitter.com/mdo"  @mdo
-* added cover image and background color to match (green)
-*
-* Globals
-
-*/
-
+* Globals */
 /* Links */
 a,
 a:focus,
@@ -72,8 +96,9 @@ a:hover {
 
 html,
 body {
+
 /*css for full size background image*/
-  /*background: url(../img/banquette.jpg) no-repeat center center fixed;*/
+  background: url(../img/heroBurger.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -88,19 +113,6 @@ body {
   font-size: 5px;
 }
 
-.lead {
-  font-family: "europa-Light",sans-serif;
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 300;
-}
-.leftBox{
-  font-family: "europa-Light",sans-serif;
-  font-size: 1.5em;
-  font-style: normal;
-  font-weight: 300;
-  margin-top: 40px;
-}
 .cover-heading {
   font-size: 5em;
 }
@@ -139,22 +151,61 @@ body {
  * Header
  */
 
-/*
-* Navbar
-*/
+.masthead {
+  margin-bottom: 2rem;
+}
 
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
 
 /*
  * Cover
  */
 
-
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
 
 
 /*
  * Footer
  */
-
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
@@ -185,5 +236,3 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
-
-
