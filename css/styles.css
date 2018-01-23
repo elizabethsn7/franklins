@@ -19,12 +19,15 @@
 }
 #logo {
   margin: 0 auto;
-  padding-top: 25%;
+  padding-top: 20px;
 }
 #beerQuote {
-  background: url(../img/beerCloseup.png) no-repeat center center fixed;
-  height: 100%;
+  background: url(../img/heroBurger.png) no-repeat center center fixed;
   }
+
+.wineOverlay {
+  color: navy;
+}
 
 .col-md-6 {
   padding: 0;
@@ -38,13 +41,6 @@
     padding: 0;
   }
 /*
-
-* Based on Cover by https://twitter.com/mdo"  @mdo
-* added cover image and background color to match (green)
-*
-* Globals
-
-*/
 
 /* Links */
 a,
@@ -72,13 +68,6 @@ a:hover {
 
 html,
 body {
-/*css for full size background image*/
-  /*background: url(../img/banquette.jpg) no-repeat center center fixed;*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
   height: 100%;
   color: #000;
   text-align: center;
@@ -101,9 +90,6 @@ body {
   font-weight: 300;
   margin-top: 40px;
 }
-.cover-heading {
-  font-size: 5em;
-}
 
 .icon {
   margin-top: 10px;
@@ -124,66 +110,8 @@ body {
   display: table-cell;
   vertical-align: top;
 }
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
 
 /* Padding for spacing */
 .inner {
   /*padding: 30px;*/
 }
-
-
-/*
- * Header
- */
-
-/*
-* Navbar
-*/
-
-
-/*
- * Cover
- */
-
-
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-
