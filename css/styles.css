@@ -1,13 +1,31 @@
+ #page-top {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff; 
+  font-size: 30px;
+}
+
+.letsEatHr {
+  border-color: #2E0014;
+}
+
+.addressTop {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff; 
+  font-size: 18px;
+}
+
 .caption {
     position: absolute;
     top: 45%;
     left: 0;
     width: 100%;
 }
-
-
 .aboutBackground {
-  background: url(../img/aboutBeer.png) no-repeat center center fixed;
+  background: url(../img/footerDrkLng.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,7 +35,7 @@
 .about {
   text-align: left;
   color: #000;
-  margin: 0 20px;
+  padding: 0px;
 }
 .aboutFont {
   font-family: garamond-premier-pro-display, serif;
@@ -27,21 +45,20 @@
 }
 
 .textBackgroundBlock {
-  background-color: #FFF;
-  padding: 30px;
+  background-color: #fff;
   opacity: 0.8;
 }
-#wineSection {
+#beerSection {
 	color: #2E0014;
-  background-color: #FFF;
-  margin-top: 500px;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  background-color: #fff;
+  margin-top: 75px;
+  padding-bottom: 25px;
+  /*padding-top: 35px;*/
 }
 
 #logo {
-float: left;
-padding-top: 100px;
+width: 500px;
+padding-top: 200px;
 }
 .wineOverlay{
   font-family: garamond-premier-pro-display, serif;
@@ -49,18 +66,24 @@ padding-top: 100px;
   font-weight: 400;
   font-size: 44px;
 }
-.col-md-6 {
-  padding: 0;
+
+#letsEat {
+  color: #2E0014;
+  /*background-color: #fff;*/
 }
 #services {
-  background-color: #FFF;
+  background-color: #fff;
 }
 #contact{
-  background-color: #FFF;
+  color: #000;
+  background-color: #fff;
 }
-  #map {
-    height: 100%;
-  }
+
+
+.portfolio-box .portfolio-box-caption  {
+  background: #7c0018 !important  
+}
+
   html, body {
     height: 100%;
     margin: 0;
@@ -84,10 +107,10 @@ a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
+/*PrivateEvents.html*/
 
-.fixed-top {
-  font-size: 1.2em;
-}
+#privateEvents {
+  }
 /*
  * Base structure
  */
@@ -100,10 +123,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
+  height: 25%;
   color: #000;
   text-align: center;
   font-family: "adobe-garamond-pro",serif;
+  background-color: orange;
 }
 .fa-circle {
   font-size: 5px;
