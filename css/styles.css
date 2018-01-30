@@ -10,6 +10,15 @@
   border-color: #2E0014;
 }
 
+
+.col-md-8 {
+  padding: 0px;
+}
+.carouselText {
+  color: #2E0014;
+  background-color: #fff;
+}
+
 .addressTop {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -118,7 +127,7 @@ a:hover {
 html,
 body {
 /*css for full size background image*/
-  background: url(../img/heroBurger.png) no-repeat center center fixed;
+  background: url(../img/heroBurger.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
