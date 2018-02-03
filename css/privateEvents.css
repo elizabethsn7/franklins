@@ -2,13 +2,14 @@
 
 body {
   padding-top: 10px;
+  background-color: #fff;
   padding-bottom: 20px;
 }
-.imgCarou {
-	border-radius: 25px;
+.img-fluid {
+  padding-top: 20px;
 }
 .grpDining {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Raleway', Sans-Serif;
   font-weight: 300;
   line-height: 46px;
   font-size: 45px;
@@ -17,7 +18,6 @@ body {
   margin-left: 15px;
 }
 .f_room {
-  margin-left: 10px;
   padding-bottom: 10px;
 }
 
@@ -32,50 +32,36 @@ hr.style14 {
   font-family: 'EB Garamond', serif;
   font-weight: 300;
   line-height: 46px;
-  font-size: 72px;
-  margin: 0 0 23px 0;
+  font-size: 80px;
+  margin-top: 50px;
   text-align: center;
   color: #fff;
 }
-.rmSizeText {
-  font-family: 'Roboto', sans-serif;
-  font-size: 22px;
-}
 
-.roomDetails {
-  margin-left: 20px;
-}
-
-.col-md-6 {
-  padding: 0px;
-}
 .headerQuote {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
   text-align: center;
-  color: #fff;
-  font-size: 20px;
+  font-size: 44px;
+  color: #2E0014;
 }
 
 .jumbotron {
-	background: url(../img/BnqtRm.jpg) no-repeat center;
+	background: url(../img/frSideView.jpg) no-repeat center;
+  height: 400px;
 }
 
 .hours {
   text-align: center;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Raleway', Sans-Serif;
   font-size: 35 px;
   margin-top: 35px;
 }
-.addressInfo {
-  margin-left: 20px;
-  font-size: 20px;
-}
+
 .footerRow {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Raleway', Sans-Serif;
   font-weight: 100; 
   background: #000;
   color: #fff;
-
 }
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);

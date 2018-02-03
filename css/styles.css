@@ -6,15 +6,18 @@
   font-size: 30px;
 }
 
-.letsEatHr {
+.contactHR {
   border-color: #2E0014;
 }
-
-
-.col-md-8 {
-  padding: 0px;
+.mailto {
+  color: #2E0014; 
+}
+#footer {
+  background-color: #2E0014;
+  height: 20px;
 }
 .carouselText {
+  font-size: 45px;
   color: #2E0014;
   background-color: #fff;
 }
@@ -33,52 +36,60 @@
     left: 0;
     width: 100%;
 }
-.aboutBackground {
-  background: url(../img/footerDrkLng.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-}
 .about {
   text-align: left;
   color: #000;
   padding: 0px;
 }
-.aboutFont {
-  font-family: garamond-premier-pro-display, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+.aboutSentence {
+  font-family: 'Open Sans', Sans-Serif;
+  font-size: 25px;
+  margin-left: 20px;
 }
 
+.col-md-8 {
+  padding: 0px;
+}
+
+.aboutFont {
+  font-family: 'Raleway', Sans-Serif;
+  font-size: 44px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
 .textBackgroundBlock {
   background-color: #fff;
   opacity: 0.8;
-}
-#beerSection {
-	color: #2E0014;
-  background-color: #fff;
-  margin-top: 75px;
-  padding-bottom: 25px;
-  /*padding-top: 35px;*/
 }
 
 #logo {
 width: 500px;
 padding-top: 200px;
 }
-.wineOverlay{
-  font-family: garamond-premier-pro-display, serif;
+#beerSection {
+  color: #2E0014;
+  background-color: #ececec;
+  margin-top: 95px;
+  padding-bottom: 10px;
+  padding-top: 35px;
+}
+.beerOverlay {
+  font-family: 'Raleway', Sans-Serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 44px;
+  font-size: 35px;
 }
-
-#letsEat {
+.benQuotes {
   color: #2E0014;
-  /*background-color: #fff;*/
+  background-color: #ececec;
+  padding: 100px 0px 12px;
+}
+.quoteOverlay{
+  font-family: 'Raleway', Sans-Serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: -70px;
 }
 #services {
   background-color: #fff;
@@ -86,9 +97,15 @@ padding-top: 200px;
 #contact{
   color: #000;
   background-color: #fff;
+  padding: 90px 0px;
 }
 
-
+.hours {
+  text-align: center;
+  font-family: 'Raleway', Sans-Serif;
+  font-size: 35 px;
+  margin-top: 35px;
+}
 .portfolio-box .portfolio-box-caption  {
   background: #7c0018 !important  
 }
@@ -116,10 +133,7 @@ a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
-/*PrivateEvents.html*/
 
-#privateEvents {
-  }
 /*
  * Base structure
  */
@@ -135,7 +149,6 @@ body {
   height: 25%;
   color: #000;
   text-align: center;
-  font-family: "adobe-garamond-pro",serif;
 }
 .fa-circle {
   font-size: 5px;
@@ -149,6 +162,10 @@ body {
   margin-top: 10px;
 }
 .menu {
+  margin-top: 50px;
+
+}
+.menuBkgrnd {
   background-color: #fff;
 }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -203,7 +220,9 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
+.menuNav {
+  background-color: #fff;
+}
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -229,6 +248,14 @@ body {
 /*
  * Footer
  */
+.footerRow {
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 100; 
+  background: #000;
+  color: #fff;
+}
+
+
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
