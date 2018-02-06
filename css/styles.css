@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 300;
   color: #fff; 
-  font-size: 30px;
+  font-size: 17px;
 }
 
 .contactHR {
@@ -69,9 +69,9 @@ padding-top: 200px;
 #beerSection {
   color: #2E0014;
   background-color: #ececec;
-  margin-top: 95px;
+  margin-top: 3%;
+  padding-top: 40px;
   padding-bottom: 10px;
-  padding-top: 35px;
 }
 .beerOverlay {
   font-family: 'Raleway', Sans-Serif;
