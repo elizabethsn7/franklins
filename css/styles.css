@@ -1,20 +1,20 @@
  #page-top {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', Sans-Serif;
   font-style: normal;
   font-weight: 300;
   color: #fff; 
-  font-size: 17px;
+  font-size: 16px;
 }
-
-.contactHR {
-  border-color: #2E0014;
+hr.style14 { 
+  max-width: 90%;
+  height: 0px;
+  border: 0;
+  border-bottom: 2px solid #d8d8d8;
 }
-.mailto {
-  color: #2E0014; 
-}
-#footer {
-  background-color: #2E0014;
-  height: 20px;
+.naviColor {
+  background-color: #fff;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 .carouselText {
   font-size: 45px;
@@ -23,7 +23,7 @@
 }
 
 .addressTop {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', Sans-Serif;
   font-style: normal;
   font-weight: 300;
   color: #fff; 
@@ -43,17 +43,21 @@
 }
 .aboutSentence {
   font-family: 'Open Sans', Sans-Serif;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 20px;
 }
-
+.centeredAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .col-md-8 {
   padding: 0px;
 }
 
 .aboutFont {
   font-family: 'Raleway', Sans-Serif;
-  font-size: 44px;
+  font-size: 36px;
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -66,45 +70,72 @@
 width: 500px;
 padding-top: 200px;
 }
-#beerSection {
-  color: #2E0014;
-  background-color: #ececec;
-  margin-top: 3%;
-  padding-top: 40px;
-  padding-bottom: 10px;
-}
-.beerOverlay {
+.blockquote-footer {
   font-family: 'Raleway', Sans-Serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 300;
+  font-size: 25px;
 }
-.benQuotes {
+.beerOverlay  {
   color: #2E0014;
   background-color: #ececec;
-  padding: 100px 0px 12px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.benQuotes {
+  color: #fff;
+  padding-top: 20px;
+}
+#beerQuote {
+  background-color: orange;
+  margin-top: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: -15px;
 }
 .quoteOverlay{
   font-family: 'Raleway', Sans-Serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 35px;
-  margin-top: -70px;
+  margin-bottom: 20px;
+}
+#wineQuote {
+  background-color: orange;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-right: -15px;
 }
 #services {
   background-color: #fff;
 }
-#contact{
+.contact{
   color: #000;
   background-color: #fff;
-  padding: 90px 0px;
+  padding: 50px 70px;
+}
+.mailto {
+  color: #2E0014; 
+}
+.mailLink {
+  border-color: orange;
+  border-width: 3px;
+  max-width: 50px;
+}
+.addressInfo {
+  background-color: orange;
+  font-size: 20px;
 }
 
+#aboutCarousel {
+  margin-right: -15px;
+}
 .hours {
   text-align: center;
   font-family: 'Raleway', Sans-Serif;
-  font-size: 35 px;
-  margin-top: 35px;
+  font-size: 30px;
+  margin-top: 25px;
 }
 .portfolio-box .portfolio-box-caption  {
   background: #7c0018 !important  
@@ -243,18 +274,17 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
-
 /*
  * Footer
  */
 .footerRow {
   font-family: 'Raleway', Sans-Serif;
-  font-weight: 100; 
-  background: #000;
+  font-weight: 300; 
+  background: orange;
   color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
 }
-
 
 .mastfoot {
   color: #999; /* IE8 proofing */
