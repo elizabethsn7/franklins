@@ -123,10 +123,6 @@ padding-top: 200px;
   border-width: 3px;
   max-width: 50px;
 }
-.addressInfo {
-  background-color: orange;
-  font-size: 20px;
-}
 
 #aboutCarousel {
   margin-right: -15px;
@@ -194,11 +190,18 @@ body {
 }
 .menu {
   margin-top: 50px;
+}
 
+
+/*DRINKMENU.HTML*/
+.addressInfo {
+  background-color: orange;
+  font-size: 20px;
 }
 .menuBkgrnd {
   background-color: #fff;
 }
+/*END_DRINKMENU.HTML*/
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;

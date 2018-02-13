@@ -1,16 +1,117 @@
-<section class="menuHolder">
-	<div class="container">
-		<div class="row">
-			<div class="menuItem">
-        <h1 class="display-2">Starters</h1>
-				<h5 class="menu-item__name">
-          Roasted Beet Bruschetta
-        </h5>
-      <span class="menu-item__description">Grilled crostini with a goat cheese, house roasted beets, arugula and balsamic reduction
-      </span>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Food Menu</title>
+  </head>
+  <body>
+    <!-- ****** CSS ****** -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/menuStyles.css"/>
+  </body>
 
 
-			</div>
-		</div>
-	</div>
-</section>
+        <!-- ****** NAVIGATION ****** -->
+  <nav class="navbar navbar-expand-sm navbar-light naviColor fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item nav">
+        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <!-- *** DROPDOWN *** -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="menu.html">Let's Eat!</a>
+          <a class="dropdown-item" href="drinkMenu.html">Have a drink</a>
+        </div>
+  </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="privateEvents.html">Private Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="tempMenu.html">TestMenu</a>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+        <!-- ****** END NAVIGATION ****** -->
+  <div class="container-responsive">
+    <div class="row">
+      <h1 class="display-1">Menu</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="img-fluid" src="img/crabCakes.jpg">        
+      </div>
+      <div class="col-sm-8">
+        <h5>Roasted Beet Bruschetta</h5>
+        <p>Grilled crostini with a goat cheese spread, house roasted beets, arugula and balsamic reduction</p>
+        <h5>Chesapeake Crabcakes</h5>
+        <p>Hand cut fries smothered with beer cheese sauce, bacon, scallions and topped with demi glace $10  Add Pulled Pork $4  Brisket $5</p>
+        <h5>The Hot Mess</h5>
+        <p>Five petite lump crab cakes with panko, topped with a lemongrass remoulade (space)$16</p>
+        <h5>Jalapeno Bottlecaps</h5>
+        <p>Bite-sized red and green jalapeno pepper slices covered in premium draft beer batter $8</p>
+        <h5>Soft Pretzel Sticks </h5>
+        <p>Five fresh baked pretzel sticks served with warm beer cheese dip and honey mustard for dunking    $10</p>
+        <h5>Wisconsin Fried Cheese Curds </h5>
+        <p>Lightly battered fried cheese curds served with chipotle ranch and a roasted tomato dipping sauce $9</p>
+        <div class="featuredDish">
+          <h5>Sheet Pan Nachos</h5>
+          <p>A generous portion of our house fried, white corn  tortilla chips, refried beans, specialty cheese sauce, pico de gallo, smoked corn & black bean salsa, jalapenos and scallions topped with cumin sour cream and a side of salsa verde  $14</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ****** FOOTER ****** -->
+  <div class="container-fluid footerRow">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="hours">Hours</h3>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-3 addressInfo">
+          Monday<br>Closed        
+        </div>
+        <div class="col-md-3 addressInfo">
+          Tuesday to Thursday<br>11 AM to 10 PM            
+        </div>
+        <div class="col-md-3 addressInfo">
+          Friday and Saturday<br>11 AM to 12 AM            
+        </div>
+        <div class="col-md-3 addressInfo">
+          Sunday<br>11 AM to 9 PM            
+        </div>
+      </div>
+  </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
