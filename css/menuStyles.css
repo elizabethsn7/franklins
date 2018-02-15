@@ -12,25 +12,37 @@ hr.style14 {
   border: 0;
   border-bottom: 2px solid #d8d8d8;
 }
-.priceGutter {
-  padding-right: 15px;
-}
 .naviColor {
   background-color: #fff;
   padding-bottom: 0px;
   padding-top: 0px;
 }
-
+.table td {
+  margin: 30px;
+  padding: 0px;
+}
+.table th {
+  padding:4px;
+}
+.priceGutter {
+  padding-right: 15px;
+}
 .description {
   font-family: 'Raleway', Sans-Serif;
   font-style: normal;
   color: #000; 
   font-size: 14px;
 }
-.featuredDish {
-  border: 2px solid orange;
+.featuredName {
+  font-family: 'Raleway', Sans-Serif;
+  font-size: 25px;
 }
-
+.featureDescipt{
+  font-family: 'Raleway', Sans-Serif;
+  font-style: normal;
+  font-size: 16px;
+  vertical-align: middle;
+}
 .carouselText {
   font-size: 45px;
   color: #2E0014;
