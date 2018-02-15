@@ -1,32 +1,29 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Food Menu</title>
-  </head>
-  <body>
-    <!-- ****** CSS ****** -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="css/creative.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/menuStyles.css"/>
-  </body>
 
+<head>
+  <meta charset="UTF-8">
+  <title>Food Menu</title>
+</head>
 
-        <!-- ****** NAVIGATION ****** -->
-  <nav class="navbar navbar-expand-sm navbar-light naviColor fixed-top">
+<body>
+  <!-- ****** CSS ****** -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="css/creative.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/menuStyles.css" />
+</body>
+<!-- ****** NAVIGATION ****** -->
+<nav class="navbar navbar-expand-sm navbar-light naviColor fixed-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
-  
+    </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item nav">
         <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-
       <!-- *** DROPDOWN *** -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
@@ -34,8 +31,7 @@
           <a class="dropdown-item" href="menu.html">Let's Eat!</a>
           <a class="dropdown-item" href="drinkMenu.html">Have a drink</a>
         </div>
-  </li>
-
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="privateEvents.html">Private Events</a>
       </li>
@@ -43,40 +39,299 @@
         <a class="nav-link" href="#contact">Contact</a>
       </li>
       <!-- <li class="nav-item">
-        <a class="nav-link" href="tempMenu.html">TestMenu</a>
-      </li> -->
+          <a class="nav-link" href="tempMenu.html">TestMenu</a>
+          </li> -->
     </ul>
   </div>
 </nav>
-        <!-- ****** END NAVIGATION ****** -->
-  <div class="container-responsive">
-    <div class="row">
-      <h1 class="display-1">Menu</h1>
+<!-- ****** END NAVIGATION ****** -->
+
+
+
+<div class="container-responsive">
+  <div class="row">
+    <h1 class="display-3 text-uppercase" style="padding: 35px 0 0 15px">Starters</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <img class="img-fluid" src="img/crabCakes.jpg">
     </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <img class="img-fluid" src="img/crabCakes.jpg">        
-      </div>
-      <div class="col-sm-8">
-        <h5>Roasted Beet Bruschetta</h5>
-        <p>Grilled crostini with a goat cheese spread, house roasted beets, arugula and balsamic reduction</p>
-        <h5>Chesapeake Crabcakes</h5>
-        <p>Hand cut fries smothered with beer cheese sauce, bacon, scallions and topped with demi glace $10  Add Pulled Pork $4  Brisket $5</p>
-        <h5>The Hot Mess</h5>
-        <p>Five petite lump crab cakes with panko, topped with a lemongrass remoulade (space)$16</p>
-        <h5>Jalapeno Bottlecaps</h5>
-        <p>Bite-sized red and green jalapeno pepper slices covered in premium draft beer batter $8</p>
-        <h5>Soft Pretzel Sticks </h5>
-        <p>Five fresh baked pretzel sticks served with warm beer cheese dip and honey mustard for dunking    $10</p>
-        <h5>Wisconsin Fried Cheese Curds </h5>
-        <p>Lightly battered fried cheese curds served with chipotle ranch and a roasted tomato dipping sauce $9</p>
+    <div class="col-sm-8">
+      <table class="table">
         <div class="featuredDish">
           <h5>Sheet Pan Nachos</h5>
-          <p>A generous portion of our house fried, white corn  tortilla chips, refried beans, specialty cheese sauce, pico de gallo, smoked corn & black bean salsa, jalapenos and scallions topped with cumin sour cream and a side of salsa verde  $14</p>
+          <p>A generous portion of our house fried, white corn tortilla chips, refried beans, specialty cheese sauce, pico de gallo, smoked corn & black bean salsa, jalapenos and scallions topped with cumin sour cream and a side of salsa verde $14 <em> add pulled pork $4 brisket $5</em></p>
         </div>
-      </div>
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Roasted Beet Bruschetta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Grilled crostini with a goat cheese spread, house roasted beets, arugula and balsamic reduction</th>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0">$8 <img src="img/icons/vegetarian.png" width="18"></td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">The Hot Mess</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Hand cut fries smothered with beer cheese sauce, bacon, scallions and topped with demi glace</th>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0">$10 <img src="img/icons/gluten.png" width="18"></td>
+
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Wisconsin Fried Cheese Curds</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Lightly battered fried cheese curds served with chipotle ranch and a roasted tomato dipping sauce</th>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0">$9 <img src="img/icons/vegetarian.png" width="18"></td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Soft Pretzel Sticks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Five fresh baked pretzel sticks served with warm beer cheese dip and honey mustard for dunking</th>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0">$10 <img src="img/icons/vegan.png" width="18"></td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Jalapeno Bottlecaps</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Bite-sized red and green jalapeno pepper slices covered in premium draft beer battern</th>
+            <td class="border-0">$8</td>
+            <td class="border-0"><img src="img/icons/vegetarian.png" width="18"></td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Chesapeake Crabcakes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Five petite lump crab cakes with panko, topped with a lemongrass remoulade</th>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0 text-left">$16 <img src="img/icons/vegetarian.png" width="18"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
+<!-- ****** END STARTERS ****** -->
+  
+<!-- ****** MAINS ****** -->
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="display-3 text-uppercase">Entrees</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Franklins Brisket</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Tender house smoked beef brisket served over garlic smashed potato with green beans and a side of BBQ sauce or demi glace</th>
+            <td class="border-0">$18 <img src="img/icons/gluten.png" width="18" class="img-fluid"></td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Caramelized Salmon</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">6 oz fresh Atlantic Salmon pan seared and  served over root vegetable hash</th>
+            <td class="border-0">$18</td>
+            <td class="border-0"><img src="img/icons/gluten.png" style="padding-right: 0px" width="18"></td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Braised Pot Roast</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Wine braised chuck roast cooked overnight with vegetables, smothered in our rich housemade gravy over garlic smashed potatoes</th>
+            <td class="border-0">$16</td>
+            <td class="border-0"><img src="img/icons/gluten.png" width="18"></td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Mac and Cheese</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">House made bechamel blended with sharp cheddar, monterey jack, and a touch of parmesan topped with garlic panko breadcrumbs $12<br>Add Chicken, Bacon or Pulled Pork - $4 Brisket - $5 Sauteed Onion or Smoked Mushroom - $2
+            </th>
+            <td class="border-0">$9 <img src="img/icons/vegetarian.png" width="18" class="img-fluid"></td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Stuffed Chicken Breast</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Boneless chicken breast stuffed with baby spinach, prosciutto, and parmesan cheese coated with garlic breadcrumbs & served over roasted tomato sauce with broccoli</th>
+            <td class="border-0">$16</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>      <!-- ****** CLOSE ROW MAINS ****** -->
+
+<!-- ****** BURGERS ****** -->
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="display-3 text-uppercase">Burgers</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Franklins Burger</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Our house 1/2 lb burger patty, cheddar, house made pickles, lettuce, tomato, and onion on a brioche bun<br>Add Avocado, Bacon, Sauteed Onion or Smoked Mushroom - $2</th>
+            <td class="border-0"> $13</td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Juicy Bleu Burger</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Pub burger stuffed with double cream bleu cheese, topped with arugula and sauteed onion</th>
+            <td class="border-0"> $14</td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th scope="col">Patty Melt</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Our house 1/2 lb burger with sauteed onions, gruyere cheese, & house made Thousand Island on buttered rye</th>
+            <td class="border-0"> $14</td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>      <!-- ****** CLOSE ROW BURGERS ****** -->
+
+  <!-- ****** HANDHELDS ****** -->
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="display-3 text-uppercase">Handhelds</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Brisket Sandwich</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Sliced brisket piled high with melty chihuahua cheese, sauteed onions and beer cheese sauce on a jalapeno cheddar hoagie roll, served with a side of BBQ sauce </th>
+            <td class="border-0"> $14 <img src="img/icons/vegetarian.png" width="18"></td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Signature Reuben</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Corned beef, sauerkraut, house made Thousand Island, and gruyere cheese griddled on rye bread<br>Sub Smoked Mushrooms for Corned Beef, no extra charge</th>
+            <td class="border-0"> $14 <img src="img/icons/vegetarian.png" width="18"></td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Great American Grilled Cheese</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Chef’s cheese blend melted between crusty country loaf grilled with garlic aioli spread</th>
+            <td class="border-0"> $10 <img src="img/icons/vegetarian.png" width="18"></td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th class="border-0" scope="col">Pulled Pork Sandwich</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">House smoked pork shoulder, jalapeno coleslaw and BBQ sauce on a pretzel bun</th>
+            <td class="border-0">$13 <img src="img/icons/gluten.png" width="18"></td>
+          </tr>
+        </tbody>
+
+                <thead>
+          <tr>
+            <th class="border-0" scope="col">California Grilled Chicken</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="description border-0">Lemon herb marinated chicken breast, avocado, monterey jack, sauteed onion, spiced piquante peppers, garlic aioli, mixed greens and tomato on a pretzel bun</th>
+            <td class="border-0">$14 <img src="img/icons/gluten.png" width="18"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>      <!-- ****** CLOSE ROW HANDHELDS ****** -->
+
+
+</div>     <!-- ****** CLOSE CONTAINER  ****** -->
+
 
   <!-- ****** FOOTER ****** -->
   <div class="container-fluid footerRow">
@@ -85,33 +340,31 @@
         <h3 class="hours">Hours</h3>
       </div>
     </div>
-      <div class="row">
-        <div class="col-md-3 addressInfo">
-          Monday<br>Closed        
-        </div>
-        <div class="col-md-3 addressInfo">
-          Tuesday to Thursday<br>11 AM to 10 PM            
-        </div>
-        <div class="col-md-3 addressInfo">
-          Friday and Saturday<br>11 AM to 12 AM            
-        </div>
-        <div class="col-md-3 addressInfo">
-          Sunday<br>11 AM to 9 PM            
-        </div>
+    <div class="row">
+      <div class="col-md-3 addressInfo">
+        Monday<br>Closed
       </div>
+      <div class="col-md-3 addressInfo">
+        Tuesday to Thursday<br>11 AM to 10 PM
+      </div>
+      <div class="col-md-3 addressInfo">
+        Friday and Saturday<br>11 AM to 12 AM
+      </div>
+      <div class="col-md-3 addressInfo">
+        Sunday<br>11 AM to 9 PM
+      </div>
+    </div>
   </div>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   </body>
+
 </html>

@@ -1,6 +1,3 @@
-.featuredDish {
-  border: 2px solid orange;
-}
 
  #page-top {
   font-family: 'Raleway', Sans-Serif;
@@ -15,11 +12,25 @@ hr.style14 {
   border: 0;
   border-bottom: 2px solid #d8d8d8;
 }
+.priceGutter {
+  padding-right: 15px;
+}
 .naviColor {
   background-color: #fff;
   padding-bottom: 0px;
   padding-top: 0px;
 }
+
+.description {
+  font-family: 'Raleway', Sans-Serif;
+  font-style: normal;
+  color: #000; 
+  font-size: 14px;
+}
+.featuredDish {
+  border: 2px solid orange;
+}
+
 .carouselText {
   font-size: 45px;
   color: #2E0014;
