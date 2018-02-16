@@ -7,10 +7,9 @@
   font-size: 16px;
 }
 hr.style14 { 
-  max-width: 90%;
-  height: 0px;
-  border: 0;
-  border-bottom: 2px solid #d8d8d8;
+  margin-top: -10;
+  max-width: 100%;
+  border-bottom: 2px solid orange;
 }
 .naviColor {
   background-color: #fff;
@@ -27,11 +26,17 @@ hr.style14 {
 .priceGutter {
   padding-right: 15px;
 }
+
+.mx-md-4 {
+  margin-left: 2 !important;
+  margin-right:  2 !important;
+}
 .description {
   font-family: 'Raleway', Sans-Serif;
   font-style: normal;
   color: #000; 
   font-size: 14px;
+  padding-bottom: 0;
 }
 .featuredName {
   font-family: 'Raleway', Sans-Serif;
@@ -43,6 +48,17 @@ hr.style14 {
   font-size: 16px;
   vertical-align: middle;
 }
+#sliderBackground {
+  background: url(../img/porkSlider.png)  center;
+  max-width: 50%;
+  color: #fff;
+}
+.sliders {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  text-align: center;
+}
+
 .carouselText {
   font-size: 45px;
   color: #2E0014;
