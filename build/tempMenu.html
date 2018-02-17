@@ -1,4 +1,7 @@
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!DOCTYPE html>
+<html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <title>
@@ -20,40 +23,46 @@
   </head>
   <body>
     <!-- ****** CSS ****** -->
-    <!-- ****** NAVIGATION ****** -->
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item nav">
-          <a class="nav-link active" href="index.html">Home
-          <span class="sr-only">(current)</span></a>
-        </li><!-- *** DROPDOWN *** -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle=
-          "dropdown" href="#" role="button" aria-haspopup="true"
-          aria-expanded="false">Menu</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="menu.html">Let's
-            Eat!</a> <a class="dropdown-item" href=
-            "drinkMenu.html">Have a drink</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="privateEvents.html">Private
-          Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li><!-- <li class="nav-item">
-          <a class="nav-link" href="tempMenu.html">TestMenu</a>
-        </li> -->
-      </ul>
-    </div><!-- ****** END NAVIGATION ****** -->
-    <!-- ****** STARTERS -->
+          <!-- ****** NAVIGATION ****** -->
+<nav class="navbar navbar-expand-sm navbar-light naviColor fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item nav">
+        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <!-- *** DROPDOWN *** -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="menu.html">Let's Eat!</a>
+          <a class="dropdown-item" href="drinkMenu.html">Have a drink</a>
+        </div>
+  </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="privateEvents.html">Private Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tempMenu.html">TestMenu</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- ****** END NAVIGATION ****** -->
+
+<!-- ****** STARTERS -->
     <div class="container-fluid">
-      <div class="row"></div>
       <div class="row">
         <div class="col-md-4" style="padding: 0px">
-          <img class="img-fluid" src="img/crabCakes.jpg" />
+          <img class="img-fluid" src="img/crabCakes.jpg" alt="crab cakes"/>
         </div>
         <div class="col-md-8" style="padding-right: 30px">
           <h1 class="display-4 text-uppercase" style=
@@ -62,11 +71,6 @@
           </h1>
           <hr class="style14" />
           <table class="table">
-            <thead>
-              <tr>
-                <td></td>
-              </tr>
-            </thead>
             <thead>
               <tr>
                 <th class="border-0 featuredName" scope="col">
@@ -83,8 +87,8 @@
                   bean salsa, jalapenos and scallions topped with
                   cumin sour cream and a side of salsa verde
                   <img src="img/icons/vegetarian.png" style=
-                  "padding-right: 0px" width="18" /> <img src=
-                  "img/icons/gluten.png" style="padding-right: 0px"
+                  "padding-right: 0px" width="18" alt="vegetarian icon"/> <img src=
+                  "img/icons/gluten.png" alt="gluten icon" style="padding-right: 0px"
                   width="18" /><br />
                   <em>Add pulled pork $4 brisket $5</em>
                 </th>
@@ -95,7 +99,7 @@
             </tbody>
             <thead>
               <tr>
-                <th class="border-0" style="padding-top: 10px"
+                <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                 scope="col">
                   Roasted Beet Bruschetta
                 </th>
@@ -107,7 +111,7 @@
                   Grilled crostini with a goat cheese spread, house
                   roasted beets, arugula and balsamic reduction
                   <img src="img/icons/vegetarian.png" style=
-                  "padding-right: 0px" width="18" />
+                  "padding-right: 0px" width="18" alt="vegetarian icon"/>
                 </th>
                 <td class="border-0">
                   $8
@@ -116,7 +120,7 @@
             </tbody>
             <thead>
               <tr>
-                <th class="border-0" style="padding-top: 10px"
+                <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                 scope="col">
                   Chesapeake Crabcakes
                 </th>
@@ -135,7 +139,7 @@
             </tbody>
             <thead>
               <tr>
-                <th class="border-0" style="padding-top: 10px"
+                <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                 scope="col">
                   The Hot Mess
                 </th>
@@ -147,7 +151,7 @@
                   Hand cut fries smothered with beer cheese sauce,
                   bacon, scallions and topped with demi glace
                   <img src="img/icons/gluten.png" style=
-                  "padding-right: 0px" width="18" />
+                  "padding-right: 0px" width="18" alt="gluton icon"/>
                 </th>
                 <td class="border-0">
                   $10
@@ -156,7 +160,7 @@
             </tbody>
             <thead>
               <tr>
-                <th class="border-0" style="padding-top: 10px"
+                <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                 scope="col">
                   Jalapeno Bottlecaps
                 </th>
@@ -167,7 +171,7 @@
                 <th scope="row" class="description border-0">
                   Bite-sized red and green jalapeno pepper slices
                   covered in premium draft beer batter <img src=
-                  "img/icons/vegetarian.png" style=
+                  "img/icons/vegetarian.png" alt="vegetarian icon" style=
                   "padding-right: 0px" width="18" />
                 </th>
                 <td class="border-0">
@@ -177,7 +181,7 @@
             </tbody>
             <thead>
               <tr>
-                <th class="border-0" style="padding-top: 10px"
+                <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                 scope="col">
                   Soft Pretzel Sticks
                 </th>
@@ -188,7 +192,7 @@
                 <th scope="row" class="description border-0">
                   Five fresh baked pretzel sticks served with warm
                   beer cheese dip and honey mustard for dunking
-                  <img src="img/icons/vegan.png" style=
+                  <img src="img/icons/vegan.png" alt="vegan icon" style=
                   "padding-right: 0px" width="18" />
                 </th>
                 <td class="border-0">
@@ -198,7 +202,7 @@
             </tbody>
             <thead>
               <tr>
-                <th class="border-0" style="padding-top: 10px"
+                <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                 scope="col">
                   Wisconsin Fried Cheese Curds
                 </th>
@@ -209,7 +213,7 @@
                 <th scope="row" class="description border-0">
                   Lightly battered fried cheese curds served with
                   chipotle ranch and a roasted tomato dipping sauce
-                  <img src="img/icons/vegetarian.png" style=
+                  <img src="img/icons/vegetarian.png" alt="vegetarian icon" style=
                   "padding-right: 0px" width="18" />
                 </th>
                 <td class="border-0">
@@ -226,11 +230,12 @@
               <h1 class="display-4 text-uppercase">
                 Sliders
               </h1>
-              <hr class="style14" />
-              <table class="table">
+              <hr class="style14">
+            <p class="sliders">Served 3 of 1 variety $9</p>
+              <table class="table" >
                 <thead>
                   <tr>
-                    <th class="border-0 text-right" style=
+                    <th class="border-0 sliders" style=
                     "padding-top: 10px" scope="col">
                       Burger
                     </th>
@@ -239,15 +244,14 @@
                 <tbody>
                   <tr>
                     <th scope="row" class=
-                    "description border-0 text-right">
+                    "whiteDescription border-0">
                       Cheddar Cheese and House Made Pickles
                     </th>
                   </tr>
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0 text-right" style=
-                    "padding-top: 10px; height: 200px" scope="col">
+                    <th class="border-0 sliders" scope="col">
                       Pulled Pork
                     </th>
                   </tr>
@@ -255,14 +259,14 @@
                 <tbody>
                   <tr>
                     <th scope="row" class=
-                    "description border-0 text-right">
+                    "whiteDescription border-0">
                       BBQ Sauce and Jalepeno Coleslaw
                     </th>
                   </tr>
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0 text-right" style=
+                    <th class="border-0 sliders" style=
                     "padding-top: 10px" scope="col">
                       Brisket
                     </th>
@@ -270,31 +274,31 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" class=
-                    "description border-0 text-right">
+                    <th scope="row" class="whiteDescription border-0">
                       BBQ Sauce and Sauteed Onions
                     </th>
                   </tr>
                 </tbody>
               </table>
             </div>
-            <div class="col-md-6">
+  <!-- ****** SOUP ****** -->
+            <div class="col-md-6" id="soupBackground">
               <h1 class="display-4 text-uppercase">
                 Soup
               </h1>
-              <hr class="style14" />
+              <hr class="style14">
               <table class="table">
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0 sliders" style="padding-top: 10px"
                     scope="col">
                       Hearty Chili
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="mx-md-1">
-                    <th scope="row" class="description border-0">
+                  <tr>
+                    <th scope="row" class="whiteDescription border-0">
                       Topped with cheddar cheese, onion, and cumin
                       sour cream
                     </th>
@@ -302,15 +306,14 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
-                    scope="col">
-                      Beer Cheese Soup
+                    <th class="border-0 sliders" style="padding-top: 10px"
+                    scope="col">Beer Cheese Soup
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="mx-md-1">
-                    <th scope="row" class="description border-0">
+                  <tr>
+                    <th scope="row" class="whiteDescription border-0">
                       Made with IPA and Red Ale, topped with
                       scallions, and served with pretzel croutons
                     </th>
@@ -319,7 +322,7 @@
               </table>
             </div>
           </div>
-        </div><!-- ****** CLOSE SLIDERS  ****** -->
+        </div><!-- ****** CLOSE SOUP  ****** -->
         <!-- ****** ENTREES ****** -->
         <div class="container-fluid">
           <div class="row">
@@ -327,7 +330,7 @@
               <h1 class="display-4 text-uppercase">
                 Entrees
               </h1>
-              <hr class="style14" />
+              <hr class="style14">
             </div>
           </div>
           <div class="row">
@@ -335,7 +338,7 @@
               <table class="table table-responsive">
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Franklins Brisket
                     </th>
@@ -355,7 +358,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Caramelized Salmon
                     </th>
@@ -366,7 +369,7 @@
                     <th scope="row" class="description border-0">
                       6 oz fresh Atlantic Salmon pan seared and
                       served over root vegetable hash <img src=
-                      "img/icons/gluten.png" style=
+                      "img/icons/gluten.png" alt="gluten icon" style=
                       "padding-right: 0px" width="18" />
                     </th>
                     <td class="border-0">
@@ -376,7 +379,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Braised Pot Roast
                     </th>
@@ -388,7 +391,7 @@
                       Wine braised chuck roast cooked overnight
                       with vegetables, smothered in our rich
                       housemade gravy over garlic smashed potatoes
-                      <img src="img/icons/gluten.png" style=
+                      <img src="img/icons/gluten.png" alt="gluten icon" style=
                       "padding-right: 0px" width="18" />
                     </th>
                     <td class="border-0">
@@ -398,7 +401,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Mac and Cheese
                     </th>
@@ -414,7 +417,7 @@
                       Add Chicken, Bacon or Pulled Pork - $4
                       Brisket - $5 Sauteed Onion or Smoked Mushroom
                       - $2 <img src="img/icons/vegetarian.png"
-                      style="padding-right: 0px" width="18" />
+                      style="padding-right: 0px" alt="vegetarian icon" width="18" />
                     </th>
                     <td class="border-0">
                       $12
@@ -423,7 +426,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Stuffed Chicken Breast
                     </th>
@@ -459,7 +462,7 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Franklins Burger
                     </th>
@@ -481,7 +484,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Juicy Bleu Burger
                     </th>
@@ -500,7 +503,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Patty Melt
                     </th>
@@ -537,7 +540,7 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Brisket Sandwich
                     </th>
@@ -550,7 +553,7 @@
                       chihuahua cheese, sauteed onions and beer
                       cheese sauce on a jalapeno cheddar hoagie
                       roll, served with a side of BBQ sauce
-                      <img src="img/icons/vegetarian.png" width=
+                      <img src="img/icons/vegetarian.png" alt="vegetarian icon" width=
                       "18" />
                     </th>
                     <td class="border-0">
@@ -560,7 +563,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Signature Reuben
                     </th>
@@ -574,7 +577,7 @@
                       bread<br />
                       Sub Smoked Mushrooms for Corned Beef, no
                       extra charge <img src=
-                      "img/icons/vegetarian.png" width="18" />
+                      "img/icons/vegetarian.png" alt="vegetarian icon" width="18" />
                     </th>
                     <td class="border-0">
                       $14
@@ -583,7 +586,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Great American Grilled Cheese
                     </th>
@@ -594,7 +597,7 @@
                     <th scope="row" class="description border-0">
                       Chef’s cheese blend melted between crusty
                       country loaf grilled with garlic aioli spread
-                      <img src="img/icons/vegetarian.png" width=
+                      <img src="img/icons/vegetarian.png" alt="vegetarian icon" width=
                       "18" />
                     </th>
                     <td class="border-0">
@@ -604,7 +607,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       Pulled Pork Sandwich
                     </th>
@@ -615,7 +618,7 @@
                     <th scope="row" class="description border-0">
                       House smoked pork shoulder, jalapeno coleslaw
                       and BBQ sauce on a pretzel bun <img src=
-                      "img/icons/vegetarian.png" width="18" />
+                      "img/icons/vegetarian.png" alt="vegetarian icon" width="18" />
                     </th>
                     <td class="border-0">
                       $8
@@ -624,7 +627,7 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="border-0" style="padding-top: 10px"
+                    <th class="border-0" style="padding-top: 10px; padding-bottom: 0px"
                     scope="col">
                       California Grilled Chicken
                     </th>
@@ -637,7 +640,7 @@
                       monterey jack, sauteed onion, spiced piquante
                       peppers, garlic aioli, mixed greens and
                       tomato on a pretzel bun <img src=
-                      "img/icons/gluten.png" width="18" />
+                      "img/icons/gluten.png" alt="gluten icon" width="18" />
                     </th>
                     <td class="border-0">
                       $8
@@ -648,7 +651,7 @@
             </div>
           </div>
         </div><!-- ****** END HANDHELDS  ****** -->
-        FOOTER
+        <!-- ****** FOOTER  ****** -->
         <div class="container-fluid footerRow">
           <div class="row">
             <div class="col-12">

@@ -11,6 +11,11 @@ hr.style14 {
   max-width: 100%;
   border-bottom: 2px solid orange;
 }
+hr.style12 {
+  margin-top: -10;
+  max-width: 100%;
+  border-bottom: 2px solid #fff;
+}
 .naviColor {
   background-color: #fff;
   padding-bottom: 0px;
@@ -27,13 +32,16 @@ hr.style14 {
   padding-right: 15px;
 }
 
-.mx-md-4 {
-  margin-left: 2 !important;
-  margin-right:  2 !important;
+.whiteDescription {
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  color: #000; 
+  font-size: 18px;
+  padding-bottom: 0;
 }
 .description {
   font-family: 'Raleway', Sans-Serif;
-  font-style: normal;
+  font-weight: 300;
   color: #000; 
   font-size: 14px;
   padding-bottom: 0;
@@ -48,17 +56,15 @@ hr.style14 {
   font-size: 16px;
   vertical-align: middle;
 }
-#sliderBackground {
-  background: url(../img/porkSlider.png)  center;
-  max-width: 50%;
-  color: #fff;
-}
-.sliders {
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
-  text-align: center;
-}
 
+.sliders {
+  font-family: 'Raleway', Sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+#soupBackground {
+  color: #000;
+}
 .carouselText {
   font-size: 45px;
   color: #2E0014;
