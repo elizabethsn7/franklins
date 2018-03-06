@@ -12,9 +12,14 @@ hr.style14 {
   border-bottom: 2px solid #d8d8d8;
 }
 .naviColor {
-  background-color: #fff;
-  padding-bottom: 0px;
-  padding-top: 0px;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.nav-link {
+  color: #fff !important;
 }
 .carouselText {
   font-size: 45px;
@@ -66,9 +71,13 @@ hr.style14 {
   opacity: 0.8;
 }
 
+#hero {
+  background-image: url(../img/heroBurger.jpg);
+  height: 100%;
+  width: 100%;
+}
 #logo {
 width: 500px;
-padding-top: 200px;
 }
 .blockquote-footer {
   font-family: 'Raleway', Sans-Serif;
@@ -168,7 +177,6 @@ a:hover {
 html,
 body {
 /*css for full size background image*/
-  background: url(../img/heroBurger.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -254,9 +262,7 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-.menuNav {
-  background-color: #fff;
-}
+
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;

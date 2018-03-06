@@ -17,16 +17,21 @@ hr.style12 {
   border-bottom: 2px solid #fff;
 }
 .naviColor {
-  background-color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
   padding-bottom: 0px;
-  padding-top: 0px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.nav-link {
+  color: #fff !important;
 }
 .table td {
   margin: 30px;
   padding: 0px;
 }
 .table th {
-  padding:4px;
+  padding:0px;
 }
 .priceGutter {
   padding-right: 15px;
@@ -36,8 +41,7 @@ hr.style12 {
   font-family: 'Raleway', Sans-Serif;
   font-weight: 300;
   color: #000; 
-  font-size: 18px;
-  padding-bottom: 0;
+  font-size: 14px;
 }
 .description {
   font-family: 'Raleway', Sans-Serif;
@@ -56,20 +60,18 @@ hr.style12 {
   font-size: 16px;
   vertical-align: middle;
 }
-
 .sliders {
-  font-family: 'Raleway', Sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
 #soupBackground {
   color: #000;
 }
-.carouselText {
-  font-size: 45px;
-  color: #2E0014;
-  background-color: #fff;
+.saladBackground {
+  background: url(../img/salad.png) no-repeat center center fixed;
 }
+
+
 
 .addressTop {
   font-family: 'Raleway', Sans-Serif;
@@ -85,32 +87,8 @@ hr.style12 {
     left: 0;
     width: 100%;
 }
-.about {
-  text-align: left;
-  color: #000;
-  padding: 0px;
-}
-.aboutSentence {
-  font-family: 'Open Sans', Sans-Serif;
-  font-size: 20px;
-  margin-left: 20px;
-}
-.centeredAbout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.aboutFont {
-  font-family: 'Raleway', Sans-Serif;
-  font-size: 36px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-.textBackgroundBlock {
-  background-color: #fff;
-  opacity: 0.8;
-}
+
 
 #logo {
 width: 500px;
@@ -122,37 +100,7 @@ padding-top: 200px;
   font-weight: 300;
   font-size: 25px;
 }
-.beerOverlay  {
-  color: #2E0014;
-  background-color: #ececec;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  width: 100%;
-}
-.benQuotes {
-  color: #fff;
-  padding-top: 20px;
-}
-#beerQuote {
-  background-color: orange;
-  margin-top: 15%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-right: -15px;
-}
-.quoteOverlay{
-  font-family: 'Raleway', Sans-Serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 35px;
-  margin-bottom: 20px;
-}
-#wineQuote {
-  background-color: orange;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  margin-right: -15px;
-}
+
 #services {
   background-color: #fff;
 }
@@ -170,17 +118,11 @@ padding-top: 200px;
   max-width: 50px;
 }
 
-#aboutCarousel {
-  margin-right: -15px;
-}
 .hours {
   text-align: center;
   font-family: 'Raleway', Sans-Serif;
   font-size: 30px;
   margin-top: 25px;
-}
-.portfolio-box .portfolio-box-caption  {
-  background: #7c0018 !important  
 }
 
   html, body {
@@ -207,35 +149,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-/*
- * Base structure
- */
-
-html,
-body {
-/*css for full size background image*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 25%;
-  color: #000;
-}
-.fa-circle {
-  font-size: 5px;
-}
-
-.cover-heading {
-  font-size: 5em;
-}
-
-.icon {
-  margin-top: 10px;
-}
-.menu {
-  margin-top: 50px;
-}
-
 
 /*DRINKMENU.HTML*/
 .addressInfo {
@@ -260,67 +173,8 @@ body {
   vertical-align: top;
 }
 
-/* Padding for spacing */
-.inner {
-  /*padding: 30px;*/
-}
 
-/*
- * Header
- */
 
-.masthead {
-  margin-bottom: 2rem;
-}
-
-.masthead-brand {
-  margin-bottom: 0;
-}
-
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255,255,255,.5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255,255,255,.25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-.menuNav {
-  background-color: #fff;
-}
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-}
 /*
  * Footer
  */
