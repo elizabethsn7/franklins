@@ -1,4 +1,4 @@
- #page-top {
+#page-top {
   font-family: 'Raleway', Sans-Serif;
   font-style: normal;
   font-weight: 300;
@@ -17,9 +17,10 @@ hr.style14 {
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 20px;
+  background-color: #fff;
 }
 .nav-link {
-  color: #fff !important;
+  color: #3a4136 !important;
 }
 .carouselText {
   font-size: 45px;
@@ -55,6 +56,7 @@ hr.style14 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #9aa096;
 }
 .col-md-8 {
   padding: 0px;
@@ -71,13 +73,19 @@ hr.style14 {
   opacity: 0.8;
 }
 
-#hero {
-  background-image: url(../img/heroBurger.jpg);
-  height: 100%;
-  width: 100%;
+.hero {
+  padding: 0px;
 }
-#logo {
-width: 500px;
+.logo {
+  padding-top: 145px;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-size: 68px;
+}
+.pubHouse {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-size: 50px;
 }
 .blockquote-footer {
   font-family: 'Raleway', Sans-Serif;
@@ -97,21 +105,21 @@ width: 500px;
   padding-top: 20px;
 }
 #beerQuote {
-  background-color: orange;
-  margin-top: 15%;
+  background-color: #fff;
+  color: orange;
   padding-top: 20px;
-  padding-bottom: 20px;
   margin-right: -15px;
 }
-.quoteOverlay{
+.quoteOverlay {
   font-family: 'Raleway', Sans-Serif;
   font-style: normal;
   font-weight: 300;
   font-size: 35px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 #wineQuote {
-  background-color: orange;
+  background-color: #fff;
+  color: #ffa500;
   padding-top: 30px;
   padding-bottom: 15px;
   margin-right: -15px;
@@ -145,12 +153,6 @@ width: 500px;
 .portfolio-box .portfolio-box-caption  {
   background: #7c0018 !important  
 }
-
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
 /*
 
 /* Links */
@@ -174,16 +176,20 @@ a:hover {
  * Base structure
  */
 
+
 html,
-body {
-/*css for full size background image*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 25%;
-  color: #000;
-  text-align: center;
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("/img/heroBurger.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .fa-circle {
   font-size: 5px;
@@ -272,17 +278,6 @@ body {
   }
 }
 
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-}
 /*
  * Footer
  */

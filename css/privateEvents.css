@@ -29,6 +29,7 @@ body {
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 20px;
+  background-color: orange;
 }
 .nav-link {
   color: #fff !important;
