@@ -22,7 +22,7 @@ hr.style12 {
   padding-bottom: 0px;
   padding-top: 10px;
   font-size: 20px;
-  background-color: #3a4136;
+  background-color: #000;
 }
 .nav-link {
   color: #fff !important;
@@ -72,8 +72,6 @@ hr.style12 {
   background: url(../img/salad.png) no-repeat center center fixed;
 }
 
-
-
 .addressTop {
   font-family: 'Raleway', Sans-Serif;
   font-style: normal;
@@ -88,8 +86,6 @@ hr.style12 {
     left: 0;
     width: 100%;
 }
-
-
 
 #logo {
 width: 500px;
@@ -154,10 +150,10 @@ a:hover {
 /*DRINKMENU.HTML*/
 .addressInfo {
   background-color: orange;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 .menuBkgrnd {
-  background-color: #fff;
+  background-color: #000;
 }
 /*END_DRINKMENU.HTML*/
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -182,7 +178,7 @@ a:hover {
 .footerRow {
   font-family: 'Raleway', Sans-Serif;
   font-weight: 300; 
-  background: #3a4136;
+  background: orange;
   color: #fff;
   text-align: center;
   padding-bottom: 30px;

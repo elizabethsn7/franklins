@@ -13,7 +13,6 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Raleway:300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    
   </head>
   <body id="page-top">
     <!--Main Navigation-->
@@ -32,8 +31,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="menu.html">Let's Eat!</a>
-                <a class="dropdown-item" href="drinkMenu.html">Have a drink</a>
+                <a class="dropdown-item" href="menu.html">Food</a>
+                <a class="dropdown-item" href="drinkMenu.html">Drinks</a>
               </div>
             </li>
             <li class="nav-item">
@@ -54,11 +53,12 @@
             <div class="col-md-12 text-center">
               <!-- Heading -->
               <h2 class="logo mb-2 text-uppercase">F r a n k l i n s</h2>
-                <h3 class="text-uppercase pubHouse"> Public House</h3>
+              <h3 class="text-uppercase pubHouse"> Public House</h3>
               <!-- Divider -->
               <hr class="hr-light">
               <!-- Description -->
               <h4 class="white-text my-4 addressTop">12306 S. Harlem Avenue<br>Palos Heights, Illinois 60463<br>708-671-8959</h4>
+              <a href="menu.html" class="btn btn-light btn-lg" role="button" aria-disabled="true">Let's Eat!</a>
             </div>
           </div>
         </div>
@@ -83,13 +83,61 @@
     </div>
   </section>
   <!-- ****** END BEER QUOTE ****** -->
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+  </ol>
   <!-- ****** CAROUSEL ****** -->
-  <section class="about carousel" id="services">
+  <!-- <section class="about carousel" id="services"> -->
+  <div class="container-fluid">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/barLg.jpg" alt="dining room">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><em>An American Gastropub</em></h5>
+            <p>Where people and families continually want to gather!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/hero.jpg" alt="Juicy Burger">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><em>An American Gastropub</em></h5>
+            <p>Where people and families continually want to gather!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/bnqtRm.jpg" alt="dining room">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><em>An American Gastropub</em></h5>
+            <p>Where people and families continually want to gather!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- </section> -->
+  <!-- ****** CAROUSEL ****** -->
+  <!-- ****** CAROUSEL ****** -->
+  <!-- <section class="about carousel" id="services">
     <div class="container-fluid">
       <div class="row centeredAbout">
         <div class="col-md-4">
-          <p class="aboutFont text-uppercase"><em>An American Gastropub</em></p>
-          <p class="aboutSentence">Great food, a classic bar, family friendly, timeless and attractive. Where people and families continually want to gather!</p>
+          <p class="aboutFont text-uppercase"></p>
+          <p class="aboutSentence"> Where people and families continually want to gather!</p>
         </div>
         <div  class="col-md-8">
           <div id="aboutCarousel" class="carousel slide" data-ride="carousel">
@@ -114,101 +162,107 @@
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100 imgCarou img-fluid" src="img/wineHorizontal.jpg" alt="dining room">
-              </div>
-              </div>    <!-- ****** END CAROUSEL-INNER ****** -->
-              </div>      <!-- ****** END ID CAROUSEL ****** -->
-              <a class="carousel-control-prev active" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-              </div> <!-- END col-md-8 -->
-              </div>   <!-- END ROW -->
-              </div>   <!-- END container-fluid -->
-              </section>  <!-- ****** END ABOUT ****** -->
-              <!-- ****** WINE QUOTE ****** -->
-              <section id="wineQuote">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-12">
-                      <blockquote class="blockquote text-center">
-                        <p class="quoteOverlay">There cannot be good living where there is not good drinking.</p>
-                      <footer class="blockquote-footer">Benjamin Franklin</footer>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
-            </section>
-            
-            <!-- ****** END WINE QUOTE ****** -->
-            <!-- ****** CONTACT ****** -->
-            <div class="container-fluid contact">
-              <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                  <h2 class="section-heading">Let's Get In Touch!</h2>
-                  <hr class="mailLink">
-                  <p>Ready to host your next event with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4 ml-auto text-center">
-                  <i class="fa fa-phone fa-3x sr-contact"></i>
-                  <p>708-671-8959</p>
-                </div>
-                <div class="col-lg-4 ml-auto text-center">
-                  <i class="fa fa-map-marker fa-3x sr-contact"></i>
-                  <p>12306 S Harlem Ave<br>Palos Heights, IL 60463</p>
-                </div>
-                <div class="col-lg-4 mr-auto text-center">
-                  <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                  <p>
-                    <a href="mailto:contact@franklinspublichouse.com" class="mailLink" style="color: orange">contact@franklinspublichouse.com</a>
-                  </p>
+              </div> -->
+              <!-- </div>     -->
+              <!-- ****** END CAROUSEL-INNER ****** -->
+              <!-- </div>       -->
+              <!-- ****** END ID CAROUSEL ****** -->
+              <!-- <a class="carousel-control-prev active" href="#carouselExampleControls" role="button" data-slide="prev"> -->
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+              <!-- <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a> -->
+            <!-- </div>  -->
+            <!-- END col-md-8 -->
+            <!-- </div> -->
+            <!-- END ROW -->
+            <!-- </div> -->
+            <!-- END container-fluid -->
+            <!-- </section> -->
+            <!-- ****** END ABOUT ****** -->
+            <!-- ****** WINE QUOTE ****** -->
+            <section id="wineQuote">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <blockquote class="blockquote text-center">
+                      <p class="quoteOverlay">There cannot be good living where there is not good drinking.</p>
+                    <footer class="blockquote-footer">Benjamin Franklin</footer>
+                  </blockquote>
                 </div>
               </div>
             </div>
-            <!-- ****** FOOTER ****** -->
-            <div class="container-fluid footerRow">
-              <div class="row">
-                <div class="col-12">
-                  <h3 class="hours">Hours</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-3 addressInfo">
-                  Monday<br>Closed
-                </div>
-                <div class="col-md-3 addressInfo">
-                  Tuesday to Thursday<br>11 AM to 10 PM
-                </div>
-                <div class="col-md-3 addressInfo">
-                  Friday and Saturday<br>11 AM to 12 AM
-                </div>
-                <div class="col-md-3 addressInfo">
-                  Sunday<br>11 AM to 9 PM
-                </div>
+          </section>
+          
+          <!-- ****** END WINE QUOTE ****** -->
+          <!-- ****** CONTACT ****** -->
+          <div class="container-fluid contact">
+            <div class="row">
+              <div class="col-lg-8 mx-auto text-center">
+                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <hr class="mailLink">
+                <p>Ready to host your next event with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
               </div>
             </div>
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-            <script src="vendor/jquery/jquery.min.js"></script>
-            <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-            <!-- Bootstrap core JavaScript -->
-            
-            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-            <!-- Plugin JavaScript -->
-            
-            <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-            
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-            <!-- Custom scripts for this template -->
-            <script src="js/creative.min.js"></script>
-            <script type="text/javascript" src="js/main.js"></script>
-          </body>
-        </html>
+            <div class="row">
+              <div class="col-lg-4 ml-auto text-center">
+                <i class="fa fa-phone fa-3x sr-contact"></i>
+                <p>708-671-8959</p>
+              </div>
+              <div class="col-lg-4 ml-auto text-center">
+                <i class="fa fa-map-marker fa-3x sr-contact"></i>
+                <p>12306 S Harlem Ave<br>Palos Heights, IL 60463</p>
+              </div>
+              <div class="col-lg-4 mr-auto text-center">
+                <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                <p>
+                  <a href="mailto:contact@franklinspublichouse.com" class="mailLink" style="color: orange">contact@franklinspublichouse.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- ****** FOOTER ****** -->
+          <div class="container-fluid footerRow">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="hours">Hours</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 addressInfo">
+                Monday<br>Closed
+              </div>
+              <div class="col-md-3 addressInfo">
+                Tuesday to Thursday<br>11 AM to 10 PM
+              </div>
+              <div class="col-md-3 addressInfo">
+                Friday and Saturday<br>11 AM to 12 AM
+              </div>
+              <div class="col-md-3 addressInfo">
+                Sunday<br>11 AM to 9 PM
+              </div>
+            </div>
+          </div>
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+          <script src="vendor/jquery/jquery.min.js"></script>
+          <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+          <!-- Bootstrap core JavaScript -->
+          
+          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <!-- Plugin JavaScript -->
+          
+          <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <!-- Custom scripts for this template -->
+          <script src="js/creative.min.js"></script>
+          <script type="text/javascript" src="js/main.js"></script>
+        </body>
+      </html>
