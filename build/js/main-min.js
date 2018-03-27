@@ -1,0 +1,1 @@
+$(document).ready(function(){$(function(){var o=$(".navicolor");$(window).scroll(function(){$(window).scrollTop()>=50?o.addClass("scrolled"):o.removeClass("scrolled")})})});

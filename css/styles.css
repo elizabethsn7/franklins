@@ -18,6 +18,7 @@ hr.style14 {
   padding-top: 10px;
   font-size: 20px;
   background-color: #fff;
+  border-bottom: 1px solid #40290a;
 }
 .nav-link {
   color: #3a4136 !important;
@@ -27,7 +28,10 @@ hr.style14 {
   color: #2E0014;
   background-color: #fff;
 }
-
+.carousel-inner {
+  padding: 0px;
+  max-height: 500px;
+}
 .addressTop {
   font-family: 'Raleway', Sans-Serif;
   font-style: normal;
@@ -106,7 +110,7 @@ hr.style14 {
 }
 #beerQuote {
   background-color: #fff;
-  color: orange;
+  color: #40290a;
   padding-top: 20px;
   margin-right: -15px;
 }
@@ -119,7 +123,7 @@ hr.style14 {
 }
 #wineQuote {
   background-color: #fff;
-  color: #ffa500;
+  color: #40290a;
   padding-top: 30px;
   padding-bottom: 15px;
   margin-right: -15px;
@@ -128,9 +132,15 @@ hr.style14 {
   background-color: #fff;
 }
 .contact{
-  color: #000;
-  background-color: #fff;
-  padding: 50px 70px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #fff;
+  background-color: orange;
+  padding: 50px 50px 15px 50px;
+}
+
+.contactText {
+ font-family: 'Cormorant Garamond', serif;
+ font-size: 22px; 
 }
 .mailto {
   color: #2E0014; 
@@ -209,7 +219,6 @@ header,
 
 /*DRINKMENU.HTML*/
 .addressInfo {
-  background-color: orange;
   font-size: 20px;
 }
 .menuBkgrnd {
@@ -284,8 +293,8 @@ header,
 .footerRow {
   font-family: 'Raleway', Sans-Serif;
   font-weight: 300; 
-  background: orange;
-  color: #fff;
+  background: #fff;
+  color: #40290a;
   text-align: center;
   padding-bottom: 30px;
 }
