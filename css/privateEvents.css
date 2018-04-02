@@ -29,10 +29,11 @@ body {
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 20px;
-  background-color: orange;
+  background-color: #fff;
+  border-bottom: 1px solid #40290a;
 }
 .nav-link {
-  color: #fff !important;
+  color: #3a4136 !important;
 }
 
 .hero {
@@ -49,11 +50,9 @@ body {
   font-size: 70px;
   text-align: center;
   color: #fff;
-  
 }
 
-hr.style14 { 
-  max-width: 90%;
+hr.style14 {
   height: 0px;
   border: 0;
   border-bottom: 2px solid #d8d8d8;
@@ -70,6 +69,12 @@ hr.style14 {
   text-align: left;
   font-size: 16px;
 }
+.contact{
+  font-family: 'Cormorant Garamond', serif;
+  color: #fff;
+  background-color: orange;
+  padding: 50px 50px 15px 50px;
+}
 .hours {
   text-align: center;
   font-family: 'Raleway', Sans-Serif;
@@ -80,17 +85,15 @@ hr.style14 {
 .footerRow {
   font-family: 'Raleway', Sans-Serif;
   font-weight: 300; 
-  background: orange;
-  color: #fff;
+  background: #fff;
+  color: #40290a;
   text-align: center;
   padding-bottom: 30px;
 }
+
 .addressInfo {
-  font-family: 'Raleway', Sans-Serif;
-  font-style: normal;
-  font-weight: 300;
-  color: #fff; 
-  font-size: 18px;
+  font-size: 20px;
+  color: #40290a;
 }
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
